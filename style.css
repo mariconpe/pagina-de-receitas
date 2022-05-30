@@ -7,6 +7,7 @@
 body {
     background: #eaeaea;
     font-family: 'Merriweather Sans','Poppins', sans-serif;
+    color: black;
 }
 
 nav{
@@ -34,8 +35,6 @@ h1{
     font-size: 45px;
     margin: 50px auto;
     text-align: center;
-    border: solid green;
-    border-width: 0px 0px 0px 80px;
 }
 
 h2{
@@ -80,7 +79,7 @@ figcaption{
     border-radius: 10px;
     text-align: left;
     padding: 10px 20px;
-    margin: 60px 0px 0px 24px;
+    margin: 16px 0px 0px 24px;
     grid-area: icons;
 }
 
@@ -94,12 +93,13 @@ figcaption{
 .icons img{
     display: inline;
     width: 40px;
-    vertical-align: middle;
 }
 
-.bulk p{
+.icons p{
     display: inline;
-    vertical-align: middle;
+    position: relative;
+    bottom: 12px;
+    left: 5px;
 }
 
 ul, li{
